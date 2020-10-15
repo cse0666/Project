@@ -1,0 +1,47 @@
+This project consist of 5 important pages that is ,
+Signup.php
+Login.php
+user.php
+admin.php
+auser.php
+Database
+
+Each page here consist of different functions.
+Signup.php :- is the very first page of the application which ask user to register when they visit for the first time. The details asked during registration are First name, Last name, Date of birth, Email, Phone Number, Password and Confirm Password.
+		While registering, all the dtails must be entered properly and carefully or else there is an echo warning informing the user that the input is incorrect.
+		once all the input is given correctly the User's first name and the password is stored in the database in the Login table.
+		The User is now ready to login. Both login and signup pages are linked to the button on the top right corner of the page so that the user can visit each when required.
+
+Login.php : After registration the user uses the login button on the top right corner of the signup page to login. For login one needs credentials like user First name and Password.
+		It first checks if the user has registered i.e the name and password provided by the user during login is present in the database login table and the profile value assosiated with it is 1, if true the user can enter into User Dashboard page.
+		For admin to login to his/her section of the website, they have different profile number i.e, 0 when the admin enters the name and password it checks the profile value if 0 then it goes to the Admin Dashboard page.
+
+user.php : Once the user is in the user page their job is to provide any information they like that can be viewed by all the users. For this there is a name field and text field where the user enters their name so that simultaneous users know who has put up this information 
+		then we have text field that will be used by the user to enter the information he/she wants. Once both the information i.e, First name and Text is entered then these values are stored in the database user table. 
+		It first checks if the name is written correctly , the name the user enteres is compared to the name in the login table if valid only then the name and the content is added to the user table in the database.
+		As soon as the user enters data and click on submit button the name of the user and the information entered by them is displayed on the same page below the form so that all the simultaneous user can see what other user wants to share. 
+ 
+admin.php : The admin can view both the list of users registerd and the data the user provides.
+		As we enter the admin page, the admin can see the grid of all the users who have registered. 
+		There is a button on the top right corner of admin page that allows the admin to view list of information provided by different users.
+		
+		admin login credentials: 
+			name: admin
+			password: admin@123
+auser.php : When the admin wants to check the information entered by all the users then the admin visits the auser page where it displays the name of the user and information provided by them.  
+
+admin, user, and auser pages contains logout button that helps user and admin to logout and come back to the registration page once the work is done.
+
+Database:
+Database name : havi
+Tables are login and user
+Login table consist of User's First Name and Password they enter during registration and Profile value is by set by default as 1. For admin the profile default value is 0.
+User table consist of 2 field the User's First Name and the data column where the data entered by the user is saved.
+
+Screenshots of all the pages are given in a folder named screenshots.
+Thank You.
+
+Prepared by: 
+Name: Siya Philip
+ID: 201710100838  
+College mail: 201710100838@presidencyuniversity. 
