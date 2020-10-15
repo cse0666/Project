@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background:  #FFDAB9;
+}
+.header{
+	background:  #ffb3b3;
+	height: 8%;
+	opacity: 85%;
+	box-shadow: 0px 0px 30px 25px  #ffb3b3;
+	 padding: 40px 10px;
+}
+.dash{
+	/*text-align: center;*/
+	margin-left: 2%;
+	font-family: 'Piedra', cursive;
+	font-size: 50px;
+}
+.sign_in{
+  line-height: 15px;
+    width: 160px;
+    font-size: 12pt;
+    margin-top: 50px;
+    margin-right: 210px;
+    padding: 12px;
+    background-color:##ffd633;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+   /* color: white*/
+
+}
+.sign_up{
+  line-height: 15px;
+    width: 140px;
+    font-size: 12pt;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 12px;
+    background-color:#ffd633;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*color: white
+    */
+}
+.link_upper{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+.abc{
+	/*text-align: center;*/
+	margin-left: 7%
+}
+.content{
+	position: relative;
+}
+.child_content{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top:70px;
+	left: 10%;
+	margin: -25px 0 0 -25px;
+}
+.input_field{
+  margin-bottom: 10px;
+}
+
+
+.input_field input[type="text"],
+ textarea{
+  border: 1px solid #e0e0e0;
+  width: 25%;
+  margin-left: 10%;
+  padding: 10px;
+}
+.btn input[type="submit"]{
+  border: 0px;
+  margin-top: 2px;
+  margin-left: 18%;
+  padding: 10px;
+  text-align: center;
+  width: 10%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+/*.grid_container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	padding: 10px;
+	border-color: #000000;
+	border: 1px;
+}*/
+table, td, th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+}
+th{
+	height: 45px;
+	width: 25%;
+	padding-top: 6%;
+}
